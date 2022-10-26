@@ -1,13 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@font-face {
+    font-family: "cav";
+    src: url("/Caveat/static/Caveat-Bold.ttf");
+}
+.cav {
+    font-family: "cav";
+}
 
+@font-face {
+    font-family: "mon";
+    src: url("/Montserrat/static/Montserrat-Black.ttf ");
+}
+.mon {
+    font-family: "mon";
+}
 
 
 body{
 	padding: 0;
 	margin: 0;
 	background:#f4f4f4;
-	font-family: "Montserrat";
+	font-family: "mon";
 	position: relative;
 	min-height: 120vh;
 	width: 100%;
@@ -20,7 +32,7 @@ body::after {
   }
 
 html,h1,h2,h3,h4,h5,h6,a,p{
-	font-family: "Montserrat";
+	font-family: "mon";
 }
 
 /* Navbar by Nastya and updated by Ulrike*/
@@ -57,7 +69,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	margin-left: 1%;
 	margin-bottom: 0px;
 	margin-top: 5px;
-	font-family: 'Caveat';
+	font-family: 'cav';
 	text-decoration: none;
   }
 
@@ -96,7 +108,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	url('../images/travel.jpg');
 	background-size: cover;
 	background-position: top;
-	font-family: "Montserrat";
+	font-family: "mon";
 	position: relative;
 	width: 100%;
 }
@@ -109,7 +121,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	width: 100%;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: "Montserrat";
+	font-family: "mon";
 	color: #46745f;
 	background-color: rgb(244, 244, 244, 0.9);
 }
@@ -119,7 +131,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
     top: 30%;
     margin: auto;
 	padding: 2em;
-	font-family: "Montserrat";
+	font-family: "mon";
 }
 
 .description-2{
@@ -129,7 +141,7 @@ html,h1,h2,h3,h4,h5,h6,a,p{
 	left: 35%;
     margin: auto;
 	padding: 2em;
-	font-family: "Montserrat";
+	font-family: "mon";
 }
 
 #search-button {
@@ -264,7 +276,7 @@ tr:hover {
 	width: 100%;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: "Montserrat";
+	font-family: "mon";
 	line-height: 2em;
 	color: #46745f;
 	background-color: rgb(244, 244, 244, 0.9);
@@ -329,7 +341,7 @@ tr:hover {
 	width: 100%;
 	font-size: 20px;
 	font-weight: bold;
-	font-family: "Montserrat";
+	font-family: "mon";
 	color: #46745f;
 	background-color: rgb(244, 244, 244, 0.9);
 	text-align: center;
@@ -356,7 +368,7 @@ dl{
 	url('../images/travel.jpg');
 	background-size: cover;
 	background-position: top;
-	font-family: "Montserrat";	
+	font-family: "mon";	
 	height: 500px;
 	width:100%;
 	position: relative;
